@@ -11,20 +11,24 @@
       "minecraft:old_growth_pine_taiga": "2025-11-01 17:30:47 +0100",
       "minecraft:forest": "2025-11-01 17:11:06 +0100",
       "minecraft:taiga": "2025-11-01 17:11:05 +0100",
+      "minecraft:deep_ocean": "2025-11-20 20:56:50 +0100",
       "minecraft:lush_caves": "2025-11-01 17:28:57 +0100",
       "minecraft:windswept_forest": "2025-11-03 19:47:26 +0100",
       "minecraft:ocean": "2025-11-01 19:44:04 +0100",
       "minecraft:jungle": "2025-11-18 20:46:44 +0100",
       "minecraft:sunflower_plains": "2025-11-18 20:44:26 +0100",
+      "minecraft:cherry_grove": "2025-11-20 20:46:35 +0100",
       "minecraft:birch_forest": "2025-11-10 21:50:46 +0100",
       "minecraft:windswept_hills": "2025-11-18 20:27:30 +0100",
       "minecraft:old_growth_spruce_taiga": "2025-11-01 19:40:20 +0100",
       "minecraft:bamboo_jungle": "2025-11-18 20:48:32 +0100",
+      "minecraft:deep_lukewarm_ocean": "2025-11-20 20:55:50 +0100",
       "minecraft:flower_forest": "2025-11-18 20:43:16 +0100",
       "minecraft:beach": "2025-11-01 19:47:07 +0100",
       "minecraft:dark_forest": "2025-11-18 20:56:56 +0100",
       "minecraft:sparse_jungle": "2025-11-18 20:46:28 +0100",
       "minecraft:river": "2025-11-01 19:40:17 +0100",
+      "minecraft:lukewarm_ocean": "2025-11-20 20:55:43 +0100",
       "minecraft:stony_shore": "2025-11-01 17:11:42 +0100",
       "minecraft:dripstone_caves": "2025-11-03 20:14:28 +0100",
       "minecraft:frozen_peaks": "2025-11-01 17:07:57 +0100",
@@ -487,6 +491,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2025-11-12 19:57:25 +0100",
+      "minecraft:pillager": "2025-11-20 20:12:42 +0100",
       "minecraft:cave_spider": "2025-11-02 15:09:41 +0100",
       "minecraft:skeleton": "2025-11-01 17:57:43 +0100",
       "minecraft:phantom": "2025-11-10 21:08:02 +0100",
@@ -618,14 +623,16 @@
     "criteria": {
       "cooked_porkchop": "2025-11-01 19:23:27 +0100",
       "bread": "2025-11-01 17:56:58 +0100",
-      "cooked_chicken": "2025-11-01 17:59:50 +0100",
       "rotten_flesh": "2025-11-12 20:28:21 +0100",
       "cooked_mutton": "2025-11-02 15:19:51 +0100",
       "glow_berries": "2025-11-01 17:30:02 +0100",
-      "mushroom_stew": "2025-11-01 18:19:04 +0100",
       "sweet_berries": "2025-11-01 19:27:53 +0100",
       "cooked_beef": "2025-11-01 18:20:49 +0100",
+      "melon_slice": "2025-11-20 19:38:01 +0100",
       "tropical_fish": "2025-11-01 18:17:38 +0100",
+      "apple": "2025-11-20 21:10:28 +0100",
+      "cooked_chicken": "2025-11-01 17:59:50 +0100",
+      "mushroom_stew": "2025-11-01 18:19:04 +0100",
       "carrot": "2025-11-03 19:39:12 +0100"
     },
     "done": false
@@ -3194,9 +3201,69 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/melon_seeds": {
+  "minecraft:recipes/decorations/black_carpet": {
     "criteria": {
-      "has_melon": "2025-11-18 20:59:03 +0100"
+      "has_black_wool": "2025-11-18 20:11:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-11-18 20:11:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-11-18 20:11:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed": {
+    "criteria": {
+      "has_pink_wool": "2025-11-18 20:11:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_carpet": {
+    "criteria": {
+      "has_pink_wool": "2025-11-18 20:11:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_banner": {
+    "criteria": {
+      "has_pink_wool": "2025-11-18 20:11:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-11-18 20:42:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2025-11-18 20:44:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-11-18 20:48:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-11-18 20:48:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-11-18 20:48:53 +0100"
     },
     "done": true
   },
@@ -3212,25 +3279,61 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/jungle_wood": {
-    "criteria": {
-      "has_log": "2025-11-18 20:59:01 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2025-11-18 20:53:15 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_carpet": {
+  "minecraft:recipes/building_blocks/pale_oak_planks": {
     "criteria": {
-      "has_black_wool": "2025-11-18 20:11:05 +0100"
+      "has_log": "2025-11-18 20:57:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_wood": {
+    "criteria": {
+      "has_log": "2025-11-18 20:57:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2025-11-18 20:59:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-11-18 20:59:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-11-18 20:59:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-11-18 20:59:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-11-18 20:59:03 +0100"
     },
     "done": true
   },
   "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-11-18 21:00:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2025-11-18 21:00:02 +0100"
     },
@@ -3242,9 +3345,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_banner": {
+  "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
-      "has_black_wool": "2025-11-18 20:11:05 +0100"
+      "has_logs": "2025-11-18 21:00:03 +0100"
     },
     "done": true
   },
@@ -3254,105 +3357,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/pumpkin_pie": {
-    "criteria": {
-      "has_pumpkin": "2025-11-18 21:00:02 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/resin_block": {
     "criteria": {
       "has_resin_clump": "2025-11-18 21:08:06 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_bed": {
+  "minecraft:recipes/building_blocks/mangrove_planks": {
     "criteria": {
-      "has_black_wool": "2025-11-18 20:11:05 +0100"
+      "has_logs": "2025-11-20 19:32:40 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/glistering_melon_slice": {
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
     "criteria": {
-      "has_melon": "2025-11-18 20:59:03 +0100"
+      "has_sentry_armor_trim_smithing_template": "2025-11-20 20:14:05 +0100"
     },
     "done": true
   },
-  "minecraft:husbandry/tame_an_animal": {
+  "minecraft:recipes/food/suspicious_stew_from_open_eyeblossom": {
     "criteria": {
-      "tamed_animal": "2025-11-18 20:42:24 +0100"
+      "has_open_eyeblossom": "2025-11-20 19:39:41 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/jungle_planks": {
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
-      "has_logs": "2025-11-18 20:59:01 +0100"
+      "has_smithing_trim_template": "2025-11-20 20:03:57 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/birch_planks": {
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
     "criteria": {
-      "has_logs": "2025-11-18 21:00:03 +0100"
+      "has_coast_armor_trim_smithing_template": "2025-11-20 20:03:57 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/pink_bed": {
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
-      "has_pink_wool": "2025-11-18 20:11:08 +0100"
+      "has_smithing_trim_template": "2025-11-20 20:14:05 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/melon": {
+  "minecraft:recipes/misc/orange_dye_from_open_eyeblossom": {
     "criteria": {
-      "has_melon": "2025-11-18 20:59:03 +0100"
+      "has_open_eyeblossom": "2025-11-20 19:39:41 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+  "minecraft:recipes/building_blocks/mangrove_wood": {
     "criteria": {
-      "has_sunflower": "2025-11-18 20:44:28 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/pale_oak_planks": {
-    "criteria": {
-      "has_log": "2025-11-18 20:57:08 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/stick_from_bamboo_item": {
-    "criteria": {
-      "has_bamboo": "2025-11-18 20:48:53 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_carpet": {
-    "criteria": {
-      "has_pink_wool": "2025-11-18 20:11:08 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bamboo_block": {
-    "criteria": {
-      "has_bamboo": "2025-11-18 20:48:53 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_banner": {
-    "criteria": {
-      "has_pink_wool": "2025-11-18 20:11:08 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/pale_oak_wood": {
-    "criteria": {
-      "has_log": "2025-11-18 20:57:08 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/scaffolding": {
-    "criteria": {
-      "has_bamboo": "2025-11-18 20:48:53 +0100"
+      "has_log": "2025-11-20 19:32:40 +0100"
     },
     "done": true
   },
